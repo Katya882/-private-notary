@@ -892,17 +892,19 @@ button {
     backdrop-filter: blur(4px);
     cursor: pointer;
     z-index: 2;
-    transition: all 0.3s ease; }
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
     .visit__play-btn::after {
       content: '';
-      display: block;
-      margin-left: 6px;
+      margin-left: 5px;
       border-style: solid;
       border-width: 15px 0 15px 25px;
       border-color: transparent transparent transparent #FFFFFF; }
     .visit__play-btn:hover {
-      background: rgba(255, 255, 255, 0.4);
-      transform: translate(-50%, -50%) scale(1.1); }
+      transform: translate(-50%, -50%) scale(1.1);
+      background: rgba(255, 255, 255, 0.4); }
 
 .visit__video {
   cursor: pointer; }

@@ -1015,19 +1015,22 @@ $text-row:       rgba(#2B1A1A, 0.75);
     cursor: pointer;
     z-index: 2;
     transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &::after {
       content: '';
-      display: block;
-      margin-left: 6px;
+      margin-left: 5px;
+
       border-style: solid;
       border-width: 15px 0 15px 25px;
       border-color: transparent transparent transparent $c-white;
     }
 
     &:hover {
-      background: rgba($c-white, 0.4);
       transform: translate(-50%, -50%) scale(1.1);
+      background: rgba($c-white, 0.4);
     }
   }
 }
