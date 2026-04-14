@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header" id="header">
+    <div class="header__inner">
+
+        <a href="index.html" class="logo">
+            <span class="logo__name">Недільченко І. С.</span>
+            <span class="logo__sub">Приватний нотаріус</span>
+        </a>
+
+        <div class="header__right">
+            <div class="nav-drop" id="navDrop">
+                <button class="nav-drop__btn js-nav-btn" aria-expanded="false" aria-haspopup="true">
+                    Нотаріальні послуги
+                    <svg class="nav-drop__chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                        <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <ul class="nav-drop__menu" id="navMenu" role="menu">
+                    <li><a href="apostille.html" role="menuitem">Апостиль <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M5 3l6 5-6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="business.html" role="menuitem">Бізнес <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M5 3l6 5-6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li class="active"><a href="dovirenist.html" role="menuitem">Довіреність <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M5 3l6 5-6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="agreement.html" role="menuitem">Договори <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M5 3l6 5-6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="statement.html" role="menuitem">Заява <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M5 3l6 5-6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="displaced.html" role="menuitem">Нотаріальна допомога для ВПО та громадян з ТОТ <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M5 3l6 5-6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="missing.html" role="menuitem">Опіка над майном особи, зниклої безвісти за особливих обставин <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M5 3l6 5-6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="registration.html" role="menuitem">Реєстрація <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M5 3l6 5-6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="heritage.html" role="menuitem">Спадщина <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M5 3l6 5-6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                </ul>
+            </div>
+
+            <div class="header__socials">
+                <a href="https://www.facebook.com/share/17Hc3R3SxB/?mibextid=wwXIfr" class="soc" aria-label="Facebook" target="_blank">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                    </svg>
+                </a>
+
+                <a href="https://wa.me/380669476359" class="soc" aria-label="WhatsApp" target="_blank">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.414 0 .004 5.408 0 12.046c0 2.123.554 4.197 1.604 6.046L0 24l6.105-1.602a11.83 11.83 0 005.94 1.586h.005c6.632 0 12.042-5.411 12.046-12.05a11.813 11.813 0 00-3.644-8.528z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <button class="burger js-burger" id="burger" aria-label="Меню" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+
+    <!-- Mobile nav -->
+    <nav class="mob-nav" id="mobNav" aria-hidden="true">
+        <ul>
+            <li><a href="apostille.html">Апостиль</a></li>
+            <li><a href="business.html">Бізнес</a></li>
+            <li><a href="dovirenist.html">Довіреність</a></li>
+            <li><a href="agreement.html">Договори</a></li>
+            <li><a href="statement.html">Заява</a></li>
+            <li><a href="displaced.html">Нотаріальна допомога для ВПО та громадян з ТОТ</a></li>
+            <li><a href="missing.html">Опіка над майном особи, зниклої безвісти</a></li>
+            <li><a href="registration.html">Реєстрація</a></li>
+            <li><a href="heritage.html">Спадщина</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="feature-block">
+    <div class="feature-block__wrap">
+        <div class="feature-block__container">
+
+            <div class="feature-block__left">
+                <h2 class="feature-block__title">Реєстрація</h2>
+            </div>
+
+            <div class="feature-block__right">
+                <div class="feature-block__text">
+                    <p>
+                        Реєстрація — це сукупність юридично значущих дій, спрямованих на офіційне підтвердження, внесення, зміну або припинення відомостей щодо фізичних та юридичних осіб у державних реєстрах. Ця процедура забезпечує правову прозорість діяльності та фіксує виникнення або перехід прав власності й інших речових прав.
+                    </p>
+                    <p>
+                        Професійний підхід до реєстраційних дій гарантує точність відомостей у Єдиному державному реєстрі (ЄДРПОУ) та Державному реєстрі речових прав. Це є фундаментальною умовою для безпечного ведення бізнесу, розпорядження майном та захисту активів від неправомірних посягань.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="service-list">
+    <div class="service-list__wrap">
+        <h2 class="service-list__main-title">Перелік реєстрацій</h2>
+
+        <div class="service-list__container">
+            <div class="service-list__item">
+                <h3 class="service-list__item-title">Реєстрація бізнесу</h3>
+                <div class="service-list__item-content">
+                    <p>Первинна реєстрація, внесення змін та припинення діяльності ФОП, ТОВ, фермерських господарств, ОСББ, комунальних підприємств та установ.</p>
+                    <p>Послуга включає підтвердження інформації про кінцевих бенефіціарних власників (КБВ), реєстрацію змін у статутних документах акціонерних товариств та отримання офіційних витягів з ЄДРПОУ.</p>
+                </div>
+            </div>
+
+            <div class="service-list__item">
+                <h3 class="service-list__item-title">Реєстрація нерухомості</h3>
+                <div class="service-list__item-content">
+                    <p>Державна реєстрація права власності, переходу, припинення речових прав та фіксація обтяжень на об'єкти нерухомого майна.</p>
+                    <p>Здійснюється внесення актуальних змін до Державного реєстру речових прав та надання витягів, що підтверджують юридичний статус об'єкта та наявність або відсутність обмежень щодо нього.</p>
+                </div>
+            </div>
+
+            <div class="service-list__item">
+                <h3 class="service-list__item-title">Реєстрація рухомого майна</h3>
+                <div class="service-list__item-content">
+                    <p>Внесення, зміна та припинення відомостей про обтяження в Державному реєстрі обтяжень рухомого майна.</p>
+                    <p>Забезпечується надання офіційної інформації та витягів з реєстрів, що дозволяє перевірити чистоту транспортних засобів чи іншого цінного рухомого майна перед укладанням правочинів.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- MODAL -->
+<div class="modal-bg" id="modalBg" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal">
+        <button class="modal__x js-modal-close" aria-label="Закрити">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </button>
+        <h2 class="modal__title" id="modalTitle">Оберіть зручний спосіб зв'язку</h2>
+        <p class="modal__hint">Опрацьовую запити згідно з графіком роботи офісу. Дякую за розуміння.</p>
+
+        <a href="tel:+380669476359" class="modal__call">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.73 12.3a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.64 1.5h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.1a16 16 0 0 0 6 6l.98-.98a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Зателефонувати
+        </a>
+
+        <p class="modal__write">Написати</p>
+
+        <div class="modal__apps">
+            <a href="viber://chat?number=%2B380669476359" aria-label="Viber" class="app-btn">
+                <svg viewBox="0 0 48 48" width="52" height="52" fill="none"><rect width="48" height="48" rx="13" fill="#7360F2"/><path d="M33 14.5C30.4 12.3 27 11 24 11C16.8 11 11 16.8 11 24C11 26.4 11.7 28.7 12.9 30.7L11 37L17.5 35.1C19.4 36.2 21.7 36.8 24 36.8C31.2 36.8 37 31 37 23.8C37 20.8 35.6 17.4 33 14.5ZM29.8 26.4C29.5 26.3 27.9 25.5 27.6 25.4C27.3 25.3 27.1 25.2 26.9 25.5C26.7 25.8 26.1 26.5 25.9 26.7C25.7 26.9 25.5 26.9 25.2 26.8C24.9 26.6 23.9 26.3 22.7 25.2C21.7 24.3 21 23.2 20.8 22.9C20.6 22.5 20.8 22.4 20.9 22.2C21.1 22 21.3 21.8 21.5 21.6C21.6 21.4 21.7 21.3 21.8 21.1C21.9 20.9 21.8 20.7 21.7 20.5C21.6 20.3 20.9 18.7 20.6 18C20.3 17.3 20.1 17.4 19.8 17.4H19.2C18.9 17.4 18.6 17.5 18.3 17.8C18 18.1 17.1 19 17.1 20.7C17.1 22.4 18.4 24 18.6 24.2C18.8 24.5 21 27.9 24.4 29.3C25.2 29.7 25.9 29.9 26.4 30C27.2 30.3 27.9 30.2 28.5 30.1C29.1 30 30.4 29.3 30.7 28.6C31 27.9 31 27.3 30.9 27.2C30.8 27 30.6 26.9 30.3 26.8L29.8 26.4Z" fill="white"/></svg>
+            </a>
+            <a href="https://t.me/+380669476359" target="_blank" rel="noopener" aria-label="Telegram" class="app-btn">
+                <svg viewBox="0 0 48 48" width="52" height="52" fill="none"><rect width="48" height="48" rx="13" fill="#29A8E1"/><path d="M34.2 13.8L9.6 23.3C8.7 23.6 8.7 24.8 9.6 25.1L15.9 27.5L18.6 35.2C18.9 36.1 20.1 36.4 20.8 35.7L24.3 32.4L30.9 37.4C31.6 37.9 32.7 37.5 32.9 36.6L37.9 15.2C38.2 14.2 37.1 13.3 36.1 13.7L34.2 13.8ZM17.3 26.5L30.3 18.3L20.2 28.2L19.8 29L17.3 26.5ZM20.4 32.2L19.7 28.1L22.1 30.1L20.4 32.2ZM31.2 34.7L22.9 28.1L33.3 18L31.2 34.7Z" fill="white"/></svg>
+            </a>
+            <a href="https://wa.me/380669476359" target="_blank" rel="noopener" aria-label="WhatsApp" class="app-btn">
+                <svg viewBox="0 0 48 48" width="52" height="52" fill="none"><rect width="48" height="48" rx="13" fill="#25D366"/><path d="M34.2 13.7C31.5 11 28 9.5 24.2 9.5C16.4 9.5 10.1 15.8 10.1 23.6C10.1 26.1 10.7 28.5 12 30.6L10 37.9L17.5 35.9C19.5 37 21.8 37.6 24.1 37.6H24.2C32 37.6 38.3 31.3 38.3 23.5C38.3 19.8 36.8 16.3 34.2 13.7ZM24.2 35.2H24.1C22 35.2 20 34.7 18.2 33.6L17.8 33.4L13.3 34.6L14.5 30.3L14.3 29.9C13 27.9 12.3 25.6 12.3 23.3C12.3 16.8 17.6 11.5 24.1 11.5C27.3 11.5 30.2 12.7 32.5 15C34.8 17.3 36 20.2 36 23.4C36 29.9 30.7 35.2 24.2 35.2ZM30.7 27.7C30.3 27.5 28.5 26.6 28.2 26.5C27.9 26.4 27.7 26.3 27.5 26.6C27.3 26.9 26.7 27.6 26.5 27.8C26.3 28 26.1 28.1 25.8 27.9C25.5 27.8 24.5 27.4 23.3 26.4C22.4 25.6 21.8 24.6 21.6 24.2C21.4 23.9 21.6 23.7 21.7 23.6C21.9 23.4 22 23.2 22.2 23.1C22.4 22.9 22.4 22.8 22.5 22.6C22.6 22.4 22.6 22.2 22.5 22.1C22.4 22 21.7 20.3 21.4 19.6C21.1 18.9 20.9 19 20.7 19H20.1C19.9 19 19.6 19.1 19.3 19.4C19 19.7 18.2 20.5 18.2 22.1C18.2 23.7 19.4 25.2 19.5 25.4C19.7 25.6 21.8 28.8 25.1 30.2C25.9 30.5 26.5 30.7 27 30.9C27.7 31.1 28.4 31.1 28.9 31C29.5 30.9 30.7 30.2 30.9 29.6C31.2 29 31.2 28.4 31.1 28.3C31 28.2 30.8 28.1 30.7 27.7Z" fill="white"/></svg>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<section class="help">
+    <div class="help__wrap">
+        <div class="help__card">
+            <h2 class="help__title">Не знайшли потрібну послугу?</h2>
+            <p class="help__desc">Проконсультую та підкажу оптимальне рішення</p>
+            <button class="btn-primary js-modal help__btn">Отримати консультацію</button>
+        </div>
+    </div>
+</section>
+
+
+<section class="visit">
+    <div class="visit__wrap">
+        <h2 class="visit__title">Ваш комфортний візит</h2>
+        <p class="visit__subtitle">
+            Коротка відеоінструкція допоможе легко знайшли вхід до офісу
+        </p>
+
+        <div class="visit__video-container">
+            <video
+                    class="visit__video"
+                    controls
+                    preload="metadata"
+                    poster="img/video-poster.jpg"
+            >
+                <source src="video/office-guide.mp4" type="video/mp4">
+                Ваш браузер не підтримує відео.
+            </video>
+            <button class="visit__play-btn" aria-label="Відтворити відео"></button>
+        </div>
+    </div>
+</section>
+
+
+<section class="contacts" id="contacts">
+    <div class="contacts__row">
+        <div class="contacts__map-side">
+            <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.16140516625!2d32.2690022!3d48.5103444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d0432f896b052d%3A0x6a0860572074e508!2z0YHRgtGD0LTQtdC90YLRgdGM0LrQuNC5INCx0YPQu9GM0LLQsNGALCA00JAsINCa0YDQvtC_0LjQstC90LjRhtGM0LrQuNC5LCDQmtGW0YDQvtCy0L7Qs9GA0LDQtNGB0YzQutCwINC-0LHQuy4sIDI1MDEy!5e0!3m2!1suk!2sua!4v1715684500000!5m2!1suk!2sua"
+                    width="100%"
+                    height="100%"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+        <div class="contacts__info-side">
+            <h2 class="contacts__title">Контакти</h2>
+
+            <ul class="contacts__list">
+                <li class="contacts__item">
+                    <div class="contacts__icon-box">
+                        <img src="img/contacts__icon-1.png" alt="Адреса">
+                    </div>
+                    <p class="contacts__text">
+                        Кіровоградська обл., м. Кропивницький, 25012, бульвар Студентський 4А, кв. 43
+                    </p>
+                </li>
+
+                <li class="contacts__item">
+                    <div class="contacts__icon-box">
+                        <img src="img/contacts__icon-2.png" alt="Email">
+                    </div>
+                    <a href="mailto:notary9670@gmail.com" class="contacts__link">notary9670@gmail.com</a>
+                </li>
+
+                <li class="contacts__item">
+                    <div class="contacts__icon-box">
+                        <img src="img/contacts__icon-3.png" alt="Телефон">
+                    </div>
+                    <a href="tel:+380669476359" class="contacts__link">38(066)947-63-59</a>
+                </li>
+
+                <li class="contacts__item">
+                    <div class="contacts__icon-box">
+                        <img src="img/contacts__icon-4.png" alt="Графік">
+                    </div>
+                    <div class="contacts__schedule">
+                        <p class="contacts__label">Графік роботи:</p>
+                        <p class="contacts__text">Пн-Пт: з 9:00 до 17:00</p>
+                        <p class="contacts__text">Сб-Нд: за домовленістю</p>
+                    </div>
+                </li>
+            </ul>
+
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Кіровоградська+обл.,+м.+Кропивницький,+25012,+бульвар+Студентський+4А,+кв.+43"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contacts__btn">
+                Побудувати маршрут <span>→</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="footer__wrap">
+        <div class="footer__container">
+            <p class="footer__copy">© 2026 Всі права захищено.</p>
+
+            <div class="footer__socials">
+                <a href="https://www.facebook.com/share/17Hc3R3SxB/?mibextid=wwXIfr" class="footer__soc" aria-label="Facebook" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                    </svg>
+                </a>
+
+                <a href="https://wa.me/380669476359" class="footer__soc" aria-label="WhatsApp" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.414 0 .004 5.408 0 12.046c0 2.123.554 4.197 1.604 6.046L0 24l6.105-1.602a11.83 11.83 0 005.94 1.586h.005c6.632 0 12.042-5.411 12.046-12.05a11.813 11.813 0 00-3.644-8.528z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
