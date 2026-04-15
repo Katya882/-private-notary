@@ -520,7 +520,7 @@ button {
     line-height: 30px; } }
 .srv {
   background: #F8F1EE;
-  padding: 80px 0 96px; }
+  padding: 140px 0 40px; }
   .srv__wrap {
     max-width: 1170px;
     margin: 0 auto;
@@ -684,7 +684,7 @@ button {
     padding-left: 18px;
     padding-right: 18px; } }
 .help {
-  padding: 100px 0;
+  padding: 100px 0 40px;
   background-color: #F8F1EE; }
   .help__wrap {
     max-width: 1170px;
@@ -746,7 +746,7 @@ button {
       width: 100%;
       max-width: 320px; } }
 .reviews {
-  padding: 100px 0;
+  padding: 100px 0 40px;
   background-color: #F8F1EE; }
   .reviews__wrap {
     max-width: 1170px;
@@ -842,7 +842,7 @@ button {
     font-size: 16px; }
 
 .visit {
-  padding: 100px 0;
+  padding: 100px 0 140px;
   background-color: #F8F1EE; }
   .visit__wrap {
     max-width: 1170px;
