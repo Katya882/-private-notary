@@ -297,6 +297,15 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     font-size: 18px;
     line-height: 28px;
     color: rgba($c-white, 0.52);
+    margin-bottom: 28px;
+    max-width: 380px;
+  }
+  &__cert-2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba($c-white, 0.52);
     margin-bottom: 48px;
     max-width: 380px;
   }
