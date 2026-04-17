@@ -277,7 +277,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     font-weight: 400;
     font-size: 28px;
     line-height: 36px;
-    color: rgba($c-white, 0.82);
+    color: $c-white;
     margin-bottom: 32px;
   }
 
@@ -296,7 +296,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
-    color: rgba($c-white, 0.52);
+    color: $c-white;
     margin-bottom: 28px;
     max-width: 380px;
   }
@@ -305,7 +305,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     font-weight: 300;
     font-size: 18px;
     line-height: 20px;
-    color: rgba($c-white, 0.52);
+    color: $c-white;
     margin-bottom: 44px;
     max-width: 380px;
   }
@@ -314,7 +314,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
-    color: rgba($c-white, 0.52);
+    color: $c-white;
+    //color: rgba($c-white, 0.82);
     margin-top: 28px;
     max-width: 380px;
   }
