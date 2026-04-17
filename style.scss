@@ -295,18 +295,27 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 30px;
     color: rgba($c-white, 0.52);
-    margin-bottom: 28px;
+    margin-bottom: 32px;
     max-width: 380px;
   }
   &__cert-2{
     font-family: 'Inter', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 18px;
     color: rgba($c-white, 0.52);
-    margin-bottom: 48px;
+    margin-bottom: 32px;
+    max-width: 380px;
+  }
+  &__cert-3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba($c-white, 0.52);
+    margin-top: 32px;
     max-width: 380px;
   }
 
