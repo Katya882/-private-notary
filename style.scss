@@ -303,10 +303,10 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   &__cert-2{
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
     color: $c-white;
-    margin-bottom: 44px;
+    margin-bottom: 24px;
     max-width: 380px;
   }
   &__cert-3{
@@ -316,7 +316,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     line-height: 18px;
     color: $c-white;
     //color: rgba($c-white, 0.82);
-    margin-top: 28px;
+    margin-top: 20px;
     max-width: 380px;
   }
 
