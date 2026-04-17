@@ -245,14 +245,14 @@ button {
     line-height: 74px;
     color: #FFFFFF;
     letter-spacing: 0;
-    margin-bottom: 24px; }
+    margin-bottom: 32px; }
   .hero__cert {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
     color: rgba(255, 255, 255, 0.52);
-    margin-bottom: 32px;
+    margin-bottom: 28px;
     max-width: 380px; }
   .hero__cert-2 {
     font-family: 'Inter', sans-serif;
@@ -260,15 +260,15 @@ button {
     font-size: 16px;
     line-height: 18px;
     color: rgba(255, 255, 255, 0.52);
-    margin-bottom: 32px;
+    margin-bottom: 44px;
     max-width: 380px; }
   .hero__cert-3 {
     font-family: 'Inter', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 18px;
     color: rgba(255, 255, 255, 0.52);
-    margin-top: 32px;
+    margin-top: 28px;
     max-width: 380px; }
   .hero__cta {
     display: flex;

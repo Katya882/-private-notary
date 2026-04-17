@@ -288,7 +288,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     line-height: 74px;
     color: $c-white;
     letter-spacing: 0;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
   }
 
   &__cert {
@@ -297,7 +297,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     font-size: 18px;
     line-height: 30px;
     color: rgba($c-white, 0.52);
-    margin-bottom: 32px;
+    margin-bottom: 28px;
     max-width: 380px;
   }
   &__cert-2{
@@ -306,16 +306,16 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     font-size: 16px;
     line-height: 18px;
     color: rgba($c-white, 0.52);
-    margin-bottom: 32px;
+    margin-bottom: 44px;
     max-width: 380px;
   }
   &__cert-3{
     font-family: 'Inter', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 18px;
     color: rgba($c-white, 0.52);
-    margin-top: 32px;
+    margin-top: 28px;
     max-width: 380px;
   }
 
