@@ -237,7 +237,7 @@ button {
     font-size: 28px;
     line-height: 36px;
     color: rgba(255, 255, 255, 0.82);
-    margin-bottom: 12px; }
+    margin-bottom: 32px; }
   .hero__name {
     font-family: 'Merriweather', serif;
     font-weight: 700;
@@ -257,8 +257,8 @@ button {
   .hero__cert-2 {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 20px;
     color: rgba(255, 255, 255, 0.52);
     margin-bottom: 44px;
     max-width: 380px; }
