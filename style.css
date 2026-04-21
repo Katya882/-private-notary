@@ -1047,7 +1047,8 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px; }
+    height: 80px;
+    padding: 0 80px; }
   .footer__copy {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
