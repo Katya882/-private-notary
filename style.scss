@@ -202,8 +202,6 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   }
 }
 
-
-
 .mob-nav {
   background: darken($c-bg, 4%);
   max-height: 0;
@@ -547,6 +545,9 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 
 @media (max-width: 600px) {
+  .contacts__text{
+    max-width: 190px;
+  }
   .header__inner { padding: 0 20px; }
   .hero__inner { padding: 48px 20px; }
   .mob-nav ul { padding: 0 20px 16px; }
