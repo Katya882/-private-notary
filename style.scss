@@ -976,7 +976,7 @@ $text-row:       rgba(#2B1A1A, 0.75);
 
 
 .visit {
-  padding: 100px 0 140px;
+  padding: 80px 0 140px;
   background-color: $c-cream;
 
   &__wrap {
@@ -1089,7 +1089,7 @@ $text-row:       rgba(#2B1A1A, 0.75);
 
 @media (max-width: 768px) {
   .visit {
-    padding: 60px 0;
+    padding: 80px 0;
     &__video-container {
       height: 300px;
     }
@@ -1347,7 +1347,7 @@ $text-row:       rgba(#2B1A1A, 0.75);
 
 .service-list {
   background-color: #F8F3F0;
-  padding: 140px 0;
+  padding: 60px 0;
 
   &__wrap {
     max-width: 1170px;
