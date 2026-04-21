@@ -703,7 +703,7 @@ button {
     padding-left: 18px;
     padding-right: 18px; } }
 .help {
-  padding: 100px 0 40px;
+  padding: 80px 0 40px;
   background-color: #F8F1EE; }
   .help__wrap {
     max-width: 1170px;
@@ -754,8 +754,11 @@ button {
       transform: translateY(0); }
 
 @media (max-width: 768px) {
-  .help {
+  .service-list {
     padding: 60px 0; }
+
+  .help {
+    padding: 20px 0; }
     .help__title {
       font-size: 32px;
       line-height: 40px; }
@@ -765,7 +768,7 @@ button {
       width: 100%;
       max-width: 320px; } }
 .reviews {
-  padding: 100px 0 40px;
+  padding: 60px 0 40px;
   background-color: #F8F1EE; }
   .reviews__wrap {
     max-width: 1170px;

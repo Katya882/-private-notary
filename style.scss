@@ -765,7 +765,7 @@ $text-row:       rgba(#2B1A1A, 0.75);
 }
 
 .help {
-  padding: 100px 0 40px;
+  padding: 80px 0 40px;
   background-color: $c-cream;
 
   &__wrap {
@@ -833,8 +833,11 @@ $text-row:       rgba(#2B1A1A, 0.75);
 }
 
 @media (max-width: 768px) {
-  .help {
+  .service-list {
     padding: 60px 0;
+  }
+  .help {
+    padding: 20px 0;
 
     &__title {
       font-size: 32px;
@@ -853,7 +856,7 @@ $text-row:       rgba(#2B1A1A, 0.75);
 }
 
 .reviews {
-  padding: 100px 0 40px;
+  padding: 60px 0 40px;
   background-color: $c-cream;
 
   &__wrap {
