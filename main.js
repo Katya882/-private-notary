@@ -209,7 +209,7 @@
         // Обробник для самого відео
         video.addEventListener('click', togglePlay);
 
-        // Слухаємо події самого відео для керування видимістю кнопки
+        // події самого відео для керування видимістю кнопки
         video.addEventListener('play', () => {
             playBtn.style.opacity = '0';
             playBtn.style.visibility = 'hidden';

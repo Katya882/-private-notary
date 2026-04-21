@@ -49,7 +49,6 @@ button {
     height: 1px;
     background: rgba(255, 255, 255, 0.12); }
   .header__inner {
-    max-width: 1170px;
     margin: 0 auto;
     padding: 0 80px;
     height: 100%;
@@ -1042,7 +1041,6 @@ button {
   background-color: #2B1A1A;
   width: 100%; }
   .footer__wrap {
-    max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px; }
   .footer__container {
