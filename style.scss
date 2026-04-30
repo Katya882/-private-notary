@@ -256,12 +256,12 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     z-index: 1;
     max-width: $container;
     margin: 0 auto;
-    padding: 80px $pad-x 80px;
+    padding: 60px $pad-x 60px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
-    gap: 80px;
+    gap: 48px;
   }
 
   &__text {
@@ -572,7 +572,7 @@ $text-row:       rgba(#2B1A1A, 0.75);
 
 .srv {
   background: #F8F1EE;
-  padding: 140px 0 40px;
+  padding: 60px 0 40px;
 
   &__wrap {
     max-width: 1170px;
@@ -765,7 +765,7 @@ $text-row:       rgba(#2B1A1A, 0.75);
 }
 
 .help {
-  padding: 80px 0 40px;
+  padding: 40px 0 40px;
   background-color: $c-cream;
 
   &__wrap {
@@ -856,7 +856,7 @@ $text-row:       rgba(#2B1A1A, 0.75);
 }
 
 .reviews {
-  padding: 60px 0 40px;
+  padding: 30px 0 30px;
   background-color: $c-cream;
 
   &__wrap {
@@ -867,6 +867,7 @@ $text-row:       rgba(#2B1A1A, 0.75);
 
   &__title {
     font-family: 'Merriweather', serif;
+    font-weight: 400;
     font-size: 52px;
     line-height: 64px;
     color: $c-bg;
@@ -976,7 +977,7 @@ $text-row:       rgba(#2B1A1A, 0.75);
 
 
 .visit {
-  padding: 80px 0 140px;
+  padding: 20px 0 140px;
   background-color: $c-cream;
 
   &__wrap {
@@ -1270,6 +1271,13 @@ $text-row:       rgba(#2B1A1A, 0.75);
 }
 
 @media (max-width: 576px) {
+  .visit {
+    padding: 40px 0;
+  }
+  .reviews__title {
+    font-size: 32px;
+    line-height: 34px;
+  }
   .footer__container {
     flex-direction: column;
     justify-content: center;

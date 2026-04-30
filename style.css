@@ -220,12 +220,12 @@ button {
     z-index: 1;
     max-width: 1170px;
     margin: 0 auto;
-    padding: 80px 80px 80px;
+    padding: 60px 80px 60px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
-    gap: 80px; }
+    gap: 48px; }
   .hero__text {
     display: flex;
     flex-direction: column;
@@ -538,7 +538,7 @@ button {
     line-height: 30px; } }
 .srv {
   background: #F8F1EE;
-  padding: 140px 0 40px; }
+  padding: 60px 0 40px; }
   .srv__wrap {
     max-width: 1170px;
     margin: 0 auto;
@@ -702,7 +702,7 @@ button {
     padding-left: 18px;
     padding-right: 18px; } }
 .help {
-  padding: 80px 0 40px;
+  padding: 40px 0 40px;
   background-color: #F8F1EE; }
   .help__wrap {
     max-width: 1170px;
@@ -767,7 +767,7 @@ button {
       width: 100%;
       max-width: 320px; } }
 .reviews {
-  padding: 60px 0 40px;
+  padding: 30px 0 30px;
   background-color: #F8F1EE; }
   .reviews__wrap {
     max-width: 1170px;
@@ -775,6 +775,7 @@ button {
     padding: 0 15px; }
   .reviews__title {
     font-family: 'Merriweather', serif;
+    font-weight: 400;
     font-size: 52px;
     line-height: 64px;
     color: #2B1A1A;
@@ -863,7 +864,7 @@ button {
     font-size: 16px; }
 
 .visit {
-  padding: 80px 0 140px;
+  padding: 20px 0 140px;
   background-color: #F8F1EE; }
   .visit__wrap {
     max-width: 1170px;
@@ -1074,6 +1075,13 @@ button {
       transform: translateY(-2px); }
 
 @media (max-width: 576px) {
+  .visit {
+    padding: 40px 0; }
+
+  .reviews__title {
+    font-size: 32px;
+    line-height: 34px; }
+
   .footer__container {
     flex-direction: column;
     justify-content: center;
