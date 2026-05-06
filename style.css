@@ -498,6 +498,9 @@ button {
     font-size: 22px;
     line-height: 30px; } }
 @media (max-width: 600px) {
+  .contacts__info-side {
+    padding: 60px 35px; }
+
   .contacts__text {
     max-width: 350px; }
 
