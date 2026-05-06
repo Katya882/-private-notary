@@ -509,7 +509,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   transition: transform .2s, box-shadow .2s;
   &:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,.18); }
 }
- .contacts__text-fix{
+.contacts__text-fix{
   display: none;
 }
 
@@ -552,12 +552,6 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 @media (max-width: 600px) {
   .contacts__text{
     max-width: 350px;
-  }
-  .mobile-none{
-    display: none;
-  }
-  .contacts__text-fix{
-    display: block;
   }
   .header__inner { padding: 0 20px; }
   .hero__inner { padding: 48px 20px; }
@@ -1226,6 +1220,12 @@ $text-row:       rgba(#2B1A1A, 0.75);
   }
   .contacts__map-side {
     height: 450px;
+  }
+  .mobile-none {
+    display: none;
+  }
+  .contacts__text-fix {
+    display: block;
   }
 }
 

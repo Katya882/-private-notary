@@ -501,12 +501,6 @@ button {
   .contacts__text {
     max-width: 350px; }
 
-  .mobile-none {
-    display: none; }
-
-  .contacts__text-fix {
-    display: block; }
-
   .header__inner {
     padding: 0 20px; }
 
@@ -1046,7 +1040,13 @@ button {
     padding: 60px 30px; }
 
   .contacts__map-side {
-    height: 450px; } }
+    height: 450px; }
+
+  .mobile-none {
+    display: none; }
+
+  .contacts__text-fix {
+    display: block; } }
 .footer {
   background-color: #2B1A1A;
   width: 100%; }
