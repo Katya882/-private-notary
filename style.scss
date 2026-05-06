@@ -1228,6 +1228,11 @@ $text-row:       rgba(#2B1A1A, 0.75);
     display: block;
   }
 }
+@media (max-width: 376px) {
+  .contacts__info-side {
+    padding: 60px 57px;
+  }
+}
 
 .footer {
   background-color: #2B1A1A;
