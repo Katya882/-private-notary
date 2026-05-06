@@ -550,9 +550,6 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 
 @media (max-width: 600px) {
-  .contacts__info-side {
-    padding: 60px 35px;
-  }
   .contacts__text{
     max-width: 350px;
   }
@@ -1225,7 +1222,7 @@ $text-row:       rgba(#2B1A1A, 0.75);
     flex-direction: column-reverse;
   }
   .contacts__info-side {
-    padding: 60px 40px;
+    padding: 60px 30px;
   }
   .contacts__map-side {
     height: 450px;

@@ -498,9 +498,6 @@ button {
     font-size: 22px;
     line-height: 30px; } }
 @media (max-width: 600px) {
-  .contacts__info-side {
-    padding: 60px 35px; }
-
   .contacts__text {
     max-width: 350px; }
 
@@ -1046,7 +1043,7 @@ button {
     flex-direction: column-reverse; }
 
   .contacts__info-side {
-    padding: 60px 40px; }
+    padding: 60px 30px; }
 
   .contacts__map-side {
     height: 450px; } }
