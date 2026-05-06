@@ -437,6 +437,9 @@ button {
     transform: translateY(-2px);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18); }
 
+.contacts__text-fix {
+  display: none; }
+
 @media (max-width: 1100px) {
   .header__inner,
   .hero__inner {
@@ -496,7 +499,13 @@ button {
     line-height: 30px; } }
 @media (max-width: 600px) {
   .contacts__text {
-    max-width: 190px; }
+    max-width: 350px; }
+
+  .mobile-none {
+    display: none; }
+
+  .contacts__text-fix {
+    display: block; }
 
   .header__inner {
     padding: 0 20px; }
